@@ -8,6 +8,7 @@ menu {
 menu a {
     text-decoration: none;
     color: black;
+    font-size: 13px;
 }
 
 menu a:hover {
@@ -46,4 +47,150 @@ menu:last-child {
 
 #signin:hover{
     background-color: #1b66c9;
+}
+
+main {
+    width: 100%;
+    height: calc(100vh - 160px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#main-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    gap: 25px;
+}
+
+#main-container img {
+    width: 260px;
+    height: auto;
+}
+
+#input-section {
+    display: flex;
+    align-items: center;
+    border: 1px solid #dadce0;
+    width: 30%;
+    height: 45px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+}
+
+#input-section:hover {
+    outline: 3px solid rgb(243, 243, 243);
+}
+
+#input-section .material-symbols-outlined {
+    color: #9e9e9e;
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+#input-section input { 
+    width: 100%;
+    height: 80%;
+    border: none;
+}
+
+#input-section input:focus {
+    outline: none;
+}
+
+#input-section img {
+    width: 30px;
+    height: 30px;
+}
+
+#input-section img {
+    margin-right: 10px;
+}
+
+#search-buttons a {
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid transparent;
+    color: #4d5156;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+}
+
+#search-buttons a:first-child {
+    margin-right: 10px;
+}
+
+#search-buttons a:hover {
+    border-color: #9e9e9e;
+}
+
+#languages {
+    margin-top: 20px;
+}
+
+#languages span {
+    font-size: 13px;
+    color: #4d5156;
+}
+
+#languages a {
+    color: #003c8b;
+    text-decoration: none;
+}
+
+#languages a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 100px;
+}
+
+footer div {
+    height: 50%;
+}
+
+#footer-container-1 {
+    border-bottom: 1px solid #dadce0;
+    display: flex;
+    align-items: center;
+}
+
+#footer-container-1 span {
+    margin-left: 30px;
+    color: #646a6c;
+    font-size: 15px;
+}
+
+#footer-container-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-menu {
+    display: flex;
+    align-items: center;
+}
+
+.footer-menu a {
+    text-decoration: none;
+    color: #646a6c;
+    margin-right: 20px;
+}
+
+.footer-menu:first-child {
+    margin-left: 20px;
+}
+
+.footer-menu a:hover {
+    text-decoration: underline;
 }
