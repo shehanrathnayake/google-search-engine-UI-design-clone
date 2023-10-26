@@ -26,8 +26,8 @@ menu div:hover {
 }
 
 menu img {
-    width: 19px;
-    height: 19px;
+    width: 18px;
+    height: 18px;
 }
 
 menu:last-child {
@@ -38,7 +38,7 @@ menu:last-child {
     text-decoration: none;
     background-color: #1a73e8;
     color: white;
-    padding: 13px 30px;
+    padding: 10px 27px;
     border-radius: 5px;
     font-size: 14px;
     font-family: 'Helvitica', sans-serif;
@@ -105,10 +105,11 @@ main {
 #input-section img {
     width: 30px;
     height: 30px;
+    margin-right: 10px;
 }
 
-#input-section img {
-    margin-right: 10px;
+#input-section img:hover {
+    cursor: pointer;
 }
 
 #search-buttons a {
