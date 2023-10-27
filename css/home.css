@@ -38,7 +38,7 @@ menu:last-child {
     text-decoration: none;
     background-color: #1a73e8;
     color: white;
-    padding: 10px 27px;
+    padding: 12px 28px;
     border-radius: 5px;
     font-size: 14px;
     font-family: 'Helvitica', sans-serif;
@@ -70,6 +70,13 @@ main {
 #main-container img {
     width: 272px;
     height: auto;
+}
+
+#main-container form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #input-section {
@@ -112,21 +119,22 @@ main {
     cursor: pointer;
 }
 
-#search-buttons a {
-    text-decoration: none;
+#search-buttons button {
     padding: 10px 15px;
     border: 1px solid transparent;
     color: #4d5156;
     border-radius: 5px;
     background-color: #f8f9fa;
+    cursor: pointer;
+    font-size: 1rem;
 }
 
-#search-buttons a:first-child {
+#search-buttons button:hover {
+    border-color: #dadce0;
+}
+
+#search-buttons button:first-child {
     margin-right: 10px;
-}
-
-#search-buttons a:hover {
-    border-color: #9e9e9e;
 }
 
 #languages {

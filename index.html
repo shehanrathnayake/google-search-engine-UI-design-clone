@@ -16,30 +16,33 @@
 <body>
     <header>
         <menu>
-            <a class="link-child" href="">Gmail</a>
-            <a class="link-child" href="">Images</a>
+            <a class="link-child" href="https://www.google.com/gmail/about/">Gmail</a>
+            <a class="link-child" href="https://www.google.com/imghp?hl=en&ogbl">Images</a>
             <div title="Google apps">
                 <img src="img/dots-menu.png" alt="">
             </div>
-            <a id="signin" href="">Sign in</a>
+            <a id="signin" href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.google.com%2F&ec=GAZAmgQ&hl=en&ifkv=AVQVeywind8OKi8R0o3WcdS_Rzus3cYfbOp_sOp2aicLjrZL6r84ufK5Tp2rjGClmKW2us6gOxTN&passive=true&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S1443398623%3A1698420304039645&theme=glif">Sign in</a>
             
         </menu>
     </header>
     <main>
         <div id="main-container">
             <img src="img/Google_2015_logo.png" alt="">
-            <div id="input-section">
-                <span class="material-symbols-outlined">
-                    search
-                    </span>
-                <input type="text">
-                <img title="Search by voice" src="img/google-mic-icon.png" alt="">
-                <img title="Search by image" src="img/google-lense-icon.png" alt="">
-            </div>
-            <div id="search-buttons">
-                <a href="#">Google Search</a>
-                <a href="#">I'm Feeling Lucky</a>
-            </div>
+            <form action="https:/google.com/search">
+                <div id="input-section">
+                    <span class="material-symbols-outlined">
+                        search
+                        </span>
+                    <input type="text" name="q">
+                    <img title="Search by voice" src="img/google-mic-icon.png" alt="">
+                    <img title="Search by image" src="img/google-lense-icon.png" alt="">
+                </div>
+                <div id="search-buttons">
+                    <button type="submit">Google Search</button>
+                    <button type="submit">I'm Feeling Lucky</button>
+                </div>
+            </form>
+
             <div id="languages">
                 <span>Google offered in:</span>
                 <a href="#">සිංහල</a>
@@ -57,15 +60,15 @@
         </div>
         <div id="footer-container-2">
             <div class="footer-menu" id="footer-menu-1">
-                <a href="#">About</a>
-                <a href="#">Advertising</a>
-                <a href="#">Business</a>
-                <a href="#">How Search works</a>
+                <a href="https://about.google/?utm_source=google-LK&utm_medium=referral&utm_campaign=hp-footer&fg=1">About</a>
+                <a href="https://ads.google.com/intl/en_lk/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
+                <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none">Business</a>
+                <a href="https://www.google.com/search/howsearchworks/?fg=1">How Search works</a>
             </div>
             <div class="footer-menu" id="footer-menu-2">
-                <a href="#">Privacy</a>
-                <a href="#">Terms</a>
-                <a href="#">Settings</a>
+                <a href="https://policies.google.com/privacy?hl=en-LK&fg=1">Privacy</a>
+                <a href="https://policies.google.com/terms?hl=en-LK&fg=1">Terms</a>
+                <a href="https://www.google.com/preferences?hl=en-LK&fg=1">Settings</a>
             </div>
         </div>
     </footer>
