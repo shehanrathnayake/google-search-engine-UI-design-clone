@@ -63,12 +63,12 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-bottom: 100px;
+    margin-bottom: 110px;
     gap: 25px;
 }
 
 #main-container img {
-    width: 260px;
+    width: 272px;
     height: auto;
 }
 
@@ -76,8 +76,8 @@ main {
     display: flex;
     align-items: center;
     border: 1px solid #dadce0;
-    width: 30%;
-    height: 45px;
+    width: 582px;
+    height: 50px;
     margin-bottom: 20px;
     border-radius: 25px;
 }
@@ -89,7 +89,7 @@ main {
 #input-section .material-symbols-outlined {
     color: #9e9e9e;
     font-size: 20px;
-    padding: 0 10px;
+    padding: 0 15px;
 }
 
 #input-section input { 
@@ -130,7 +130,7 @@ main {
 }
 
 #languages {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 #languages span {
@@ -194,4 +194,16 @@ footer div {
 
 .footer-menu a:hover {
     text-decoration: underline;
+}
+
+@media all and (width <= 1200px) {
+    #footer-container-2 {
+        justify-content: space-around;
+    }
+}
+
+@media all and (width <= 992px) {
+    #input-section {
+        width: 58.67%;
+    }
 }
