@@ -2,6 +2,14 @@
     box-sizing: border-box;
 }
 
+.light-mode {
+    display: block;
+}
+
+.dark-mode {
+    display: none;
+}
+
 .material-symbols-outlined {
   font-variation-settings:
   'FILL' 0,
@@ -17,3 +25,18 @@ body {
     font-family: Arial, sans-serif;
     font-weight: 400;
 }
+
+@media all and (prefers-color-scheme: dark) {
+    :root {
+        background-color: #202124;
+    }
+
+    .light-mode {
+        display: none;
+    }
+
+    .dark-mode {
+        display: block;
+    }
+
+} 

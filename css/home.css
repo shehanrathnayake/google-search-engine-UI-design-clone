@@ -147,7 +147,7 @@ main {
 }
 
 #languages a {
-    color: #003c8b;
+    color: #1A0DAB;
     text-decoration: none;
 }
 
@@ -223,4 +223,88 @@ footer div {
     #input-section {
         width: 58.67%;
     }
+}
+
+@media all and (prefers-color-scheme: dark) {
+
+    menu a {
+        color: white;
+    }
+
+    menu div:hover {
+        background-color: #303134;
+    }
+
+    #signin {
+        background-color: #93BAF9;
+        color: #202124;
+    }
+
+    #signin:hover {
+        background-color: #97bfff;
+    }
+
+    #input-section {
+        border: 1px solid #5F6368;
+        outline: none;
+        
+    }
+    
+    #input-section:hover {
+        background-color: #303134;
+        border-color: #202124;
+        outline: none;
+    }
+    
+    #input-section .material-symbols-outlined {
+        color: #9AA0A6;
+        font-size: 20px;
+        padding: 0 15px;
+    }
+
+    #input-section input {
+        background-color: #202124;
+    }
+
+    #input-section input:hover,
+    #input-section:hover input {
+        background-color: #303134;
+    }
+
+    #watermark {
+        color: #4d4d4d;
+        opacity: 30%;
+    }
+
+    #search-buttons button {
+        color: #E8EAED;
+        background-color: #303134;
+    }
+
+    #search-buttons button:hover {
+        border-color: #5F6368;
+    }
+
+    #languages a {
+        color: #8AB4F8;
+    }
+
+    #languages span {
+        color: #9AA0A6;
+    }
+
+    footer {
+        background-color: #171717;
+    }
+
+    #footer-container-1 span,
+    .footer-menu a {
+        color: #9AA0A6;
+    }
+
+    #footer-container-1 {
+        border-bottom: 1px solid #3C4043;
+    }
+
+    
 }
