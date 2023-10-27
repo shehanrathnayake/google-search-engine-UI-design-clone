@@ -264,6 +264,7 @@ footer div {
 
     #input-section input {
         background-color: #202124;
+        color: white;
     }
 
     #input-section input:hover,
