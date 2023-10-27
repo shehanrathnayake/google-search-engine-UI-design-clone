@@ -196,6 +196,15 @@ footer div {
     text-decoration: underline;
 }
 
+#watermark {
+    position: fixed;
+    font-size: 2.5rem;
+    color: #e9e9e9;
+    font-weight: 700;
+    right: 15px;
+    bottom: 250px;
+}
+
 @media all and (width <= 1200px) {
     #footer-container-2 {
         justify-content: space-around;
