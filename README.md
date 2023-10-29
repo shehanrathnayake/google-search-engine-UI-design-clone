@@ -1,7 +1,9 @@
 # Google Search Engine UI Design Clone
 
+### Dark Theme
 ![Google UI Desin Clone - Dark Theme](img/readme-file-img/google-ui-darkmode.png)
 
+### Light Theme
 ![Google UI Desin Clone - Light Theme](img/readme-file-img/google-ui-lightmode.png)
 
 ## Key Feature
