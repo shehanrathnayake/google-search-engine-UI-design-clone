@@ -433,7 +433,8 @@ footer div {
     }
 
     #footer-container-1 span,
-    .footer-menu a {
+    .footer-menu a,
+    .mobile-footer-menu a {
         color: #9AA0A6;
     }
 
