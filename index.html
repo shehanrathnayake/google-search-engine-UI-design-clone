@@ -16,7 +16,7 @@
 </head>
 <body>
     <header>
-        <menu id="desktop-menu">
+        <menu class="desktop" id="desktop-menu">
             <a class="link-child" href="https://www.google.com/gmail/about/">Gmail</a>
             <a class="link-child" href="https://www.google.com/imghp?hl=en&ogbl">Images</a>
             <div title="Google apps">
@@ -27,7 +27,7 @@
             
         </menu>
 
-        <menu id="mobile-menu">
+        <menu class="mobile" id="mobile-menu">
             <div id="mobile-menu-section-1">
                 <span id="hamburg" class="material-symbols-outlined menu-child">
                     menu
@@ -36,9 +36,6 @@
                 <a class="menu-child" href="">IMAGES</a>
             </div>
             <a id="signin" href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.google.com%2F&ec=GAZAmgQ&hl=en&ifkv=AVQVeywind8OKi8R0o3WcdS_Rzus3cYfbOp_sOp2aicLjrZL6r84ufK5Tp2rjGClmKW2us6gOxTN&passive=true&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S1443398623%3A1698420304039645&theme=glif">Sign in</a>
-
-            <!-- <div id="mobile-menu-section-2">
-                            </div> -->
         </menu>
     </header>
     <main>
@@ -67,7 +64,7 @@
             </div>
         </div>
         <div id="watermark">
-            Experimental use
+            #Experimental use
         </div>
         
     </main>
@@ -75,7 +72,10 @@
         <div id="footer-container-1">
             <span>Sri Lanka</span>
         </div>
-        <div id="footer-container-2">
+        <div id="empty-container">
+
+        </div>
+        <div class="desktop" id="footer-container-2">
             <div class="footer-menu" id="footer-menu-1">
                 <a href="https://about.google/?utm_source=google-LK&utm_medium=referral&utm_campaign=hp-footer&fg=1">About</a>
                 <a href="https://ads.google.com/intl/en_lk/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
@@ -87,6 +87,24 @@
                 <a href="https://policies.google.com/terms?hl=en-LK&fg=1">Terms</a>
                 <a href="https://www.google.com/preferences?hl=en-LK&fg=1">Settings</a>
             </div>
+        </div>
+        <div class="mobile" id="footer-container-3">
+            <div class="mobile-footer-menu">
+                <div id="footer-theme-dark">
+                    <a href="">Dark theme: </a>
+                    <a class="light" href="">off</a>
+                    <a class="dark" href="">on</a>
+                </div>
+                <a href="https://www.google.com/preferences?hl=en-LK&fg=1">Settings</a>
+                <a href="https://policies.google.com/privacy?hl=en-LK&fg=1">Privacy</a>
+                <a href="https://policies.google.com/terms?hl=en-LK&fg=1">Terms</a>
+            </div>
+            <div class="mobile-footer-menu">
+                <a href="https://ads.google.com/intl/en_lk/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
+                <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none">Business</a>
+                <a href="https://about.google/?utm_source=google-LK&utm_medium=referral&utm_campaign=hp-footer&fg=1">About</a>
+            </div>
+
         </div>
     </footer>
 </body>
