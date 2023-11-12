@@ -19,3 +19,9 @@ This clone design has enabled both dark theme and light theme versions which are
 
 ## Disclaimer
 This design clone is intended solely for testing and experimental purposes only. All product logos, designs, and trademarks, except for the code, are subject to copyright and are the property of their respective owners.
+
+### Support
+
+***If you like what I do, maybe consider buying me a coffee*** 🥺 👇
+
+<p><a href="https://www.buymeacoffee.com/shehanrathnayake"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="37" width="157" alt="shehanrathnayake" /></a></p><br><br>
