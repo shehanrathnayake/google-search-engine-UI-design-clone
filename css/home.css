@@ -5,6 +5,10 @@ menu {
     align-items: center;
     gap: 20px;
 }
+
+#mobile-menu {
+    display: none;
+}
 menu a {
     text-decoration: none;
     color: black;
@@ -225,6 +229,44 @@ footer div {
     }
 }
 
+@media all and (width <= 768px) {
+    #input-section {
+        width: 90%;
+    }
+}
+
+@media all and (width <= 576px) {
+    #mobile-menu {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #mobile-menu-section-1 {
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .menu-child {
+        padding: 0 15px;
+    }
+
+    #hamburg {
+        margin-left: 0;
+    }
+
+    #desktop-menu {
+        display: none;
+    }
+
+    #mobile-menu-section-1 .active {
+        padding: 10px 15px;
+        color: #8AB4F8;
+        border-bottom: 2px solid #8AB4F8;
+    }
+
+}
+
 @media all and (prefers-color-scheme: dark) {
 
     menu a {
@@ -307,5 +349,9 @@ footer div {
         border-bottom: 1px solid #3C4043;
     }
 
+    #hamburg {
+        color: white;
+        font-size: 2rem;
+    }
     
 }
