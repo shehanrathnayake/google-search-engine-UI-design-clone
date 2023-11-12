@@ -13,5 +13,9 @@ This clone design has enabled both dark theme and light theme versions which are
 
 ### Mobile view
 
+![Google UI Desin Clone - Light Theme - mobile view](img/readme-file-img/google-ui-mobile-lightmode.png)
+
+![Google UI Desin Clone - Dark Theme - mobile view](img/readme-file-img/google-ui-mobile-darkmode.png)
+
 ## Disclaimer
 This design clone is intended solely for testing and experimental purposes only. All product logos, designs, and trademarks, except for the code, are subject to copyright and are the property of their respective owners.
